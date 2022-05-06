@@ -1,19 +1,9 @@
-=====================================================================================
-HLF Design & Setup - Fabric 2.x
+# HLF Design & Setup - Fabric 2.x
 
-http://www.bcmentors.com
-https://courses.pragmaticpaths.com
+This repository contains the design, management & operation of Hyperledger Fabric Blockchain Networks
 
-This project file is a part of the course on Hyperledger Fabric.
-The password for this file is available in Lecture#3 of the course. It is changed
-with every new version....so please check it along with the download
+### Version Log
 
-Please make sure you get the latest version of the repository. 
-======================================================================================
-
-===========
-Version Log
-===========
 July         2020            v2.1-1.1
 Minor Release:  
 * Added docker/raft for RAFT samples
