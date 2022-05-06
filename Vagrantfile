@@ -16,10 +16,10 @@ Vagrant.configure("2") do |config|
     # July 2020 - changed to 18.04
     
     # 1. Use this for "Standard setup"
-    config.vm.box = "acloudfan/hlfdev2.0-0"
+    # config.vm.box = "acloudfan/hlfdev2.0-0"
 
     # 2. Use this for "VirtualBox Express Setup"
-    # config.vm.box = "acloudfan/hlfdev2.0-0"
+    config.vm.box = "acloudfan/hlfdev2.0-0"
 
 
     # Uncomment the lines below if you would like to protect the VM
