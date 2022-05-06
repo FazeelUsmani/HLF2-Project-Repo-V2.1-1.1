@@ -23,6 +23,16 @@ PeerOrgs:
     Users:
       Count: 2
 
+  # Peer configuration for Budget
+  - Name: Org1
+    Domain: budget.com
+    #EnableNodeOUs: true
+    Specs:
+      - Hostname: devpeer
+        CommonName: devpeer
+    Users:
+      Count: 2
+
 
 
        
