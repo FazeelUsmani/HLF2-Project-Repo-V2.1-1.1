@@ -2,7 +2,7 @@
 
 This repository contains the design, management & operation of Hyperledger Fabric Blockchain Networks
 
-### Version Log
+### Version Log:
 
 July         2020            v2.1-1.1
 Minor Release:  
