@@ -2,6 +2,14 @@
 # policy.1
 # Simplified configtx.yaml
 
+#   CAPABILITIES
+Capabilities:
+  Application: &ApplicationCapabilities
+    V2_0: true
+  Orderer: &OrdererCapabilities
+    V2_0: true
+  Channel: &ChannelCapabilities
+    V2_0: true
 
 # ORGANIZATIONS
 Organizations:
@@ -86,6 +94,9 @@ Orderer: &OrdererDefaults
     AbsoluteMaxBytes: 98 MB
     PreferredMaxBytes: 512 KB
 
+  Capabilities:
+    <<: *OrdererCapabilities
+
 
 Application: &ApplicationDefaults
 
@@ -113,6 +124,8 @@ Application: &ApplicationDefaults
         Type: ImplicitMeta
         Rule: "MAJORITY Admins"
 
+  Capabilities:
+    <<: *ApplicationCapabilities
 
   Organizations:
  
@@ -129,6 +142,9 @@ Channel: &ChannelDefaults
     Admins:
         Type: ImplicitMeta
         Rule: "MAJORITY Admins"
+
+  Capabilities:
+    <<: *ChannelCapabilities
  
 #   PROFILES
 Profiles:
