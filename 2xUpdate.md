@@ -5,26 +5,6 @@ Fabric 2.x
 ==========
 https://hyperledger-fabric.readthedocs.io/en/release-2.0/whatsnew.html
 
-==================================
-Sample Chaincode GitHub Repository
-==================================
-All of the sample code used in this lecture is NOW updated to version 2.x
-
-GitHub Link: https://github.com/acloudfan/HLF-GO-2.0
-PS: Do NOT forget to star it :)
-
-============
-New Students
-============
-If you are new to this course & have not gone through the 
-earlier version of this course that covered Fabric 1.4 then
-this documen is NOT for you :) PLEASE Proceed with the lectures.
-
-===================================================================
-Students who have taken earlier version of the course (Fabric 1.4x)
-===================================================================
-Here are the sections that you need to re-visit to update your fabric
-skills to 2.x   :)
 
 1. Development Environment Setup
     - You MUST setup the new Dev environment.
